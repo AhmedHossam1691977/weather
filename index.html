@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container px-5 ">
+            <a class="navbar-brand d-flex py-5" href="#">
+                <img class="w-100 px-3" style="width: 64px; height: 38px;" src="img/logo@2x.png" alt="">
+                <div class="logo_type">
+                    <h1 class="text-white fw-bolder ">Weather</h1>
+                    <p class="site-description">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item  mx-2 ">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item  mx-2 ">
+                        <a class="nav-link text-white" href="#">news</a>
+                    </li>
+                    <li class="nav-item  mx-2 ">
+                        <a class="nav-link text-white" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item  mx-2 ">
+                        <a class="nav-link text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item  mx-2 ">
+                        <a class="nav-link text-white" href="/">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero my-5 py-5" >
+        <div class="container">
+            <form class="find-location">
+                <input type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit">
+            </form>
+        </div>
+    </div>
+    
+    <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-container" id="forecast"><div class="today forecast">
+<div class="forecast-header" id="today">
+<div class="day">Tuesday</div>
+<div class=" date">8August</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content" id="current">
+<div class="location">Cairo</div>
+<div class="degree">
+<div class="num">28<sup>o</sup>C</div>
+
+<div class="forecast-icon">
+    <img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+</div>	
+
+</div>
+<div class="custom">Clear</div>
+<span><img src="images/icon-umberella.png" alt="">20%</span>
+                        <span><img src="images/icon-wind.png" alt="">18km/h</span>
+                        <span><img src="images/icon-compass.png" alt="">East</span>
+</div>
+</div>	<div class="forecast">
+<div class="forecast-header">
+    <div class="day">Wednesday</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content">
+    <div class="forecast-icon">
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+    </div>
+    <div class="degree">38.5<sup>o</sup>C</div>
+    <small>24.9<sup>o</sup></small>
+    <div class="custom">Sunny</div>
+</div>
+</div>	<div class="forecast">
+<div class="forecast-header">
+    <div class="day">Thursday</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content">
+    <div class="forecast-icon">
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+    </div>
+    <div class="degree">39.4<sup>o</sup>C</div>
+    <small>24.9<sup>o</sup></small>
+    <div class="custom">Sunny</div>
+</div>
+</div></div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" placeholder="Enter your email to subscribe...">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer> 
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
